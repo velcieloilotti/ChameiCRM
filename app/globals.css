@@ -58,18 +58,18 @@
   --color-canal-messenger: #0866ff;
   --color-canal-telegram: #0088cc;
 
-  /* Accent — Sage (11 stops) */
-  --color-accent-50: #f3f6f1;
-  --color-accent-100: #e4ebe0;
-  --color-accent-200: #c8d6c1;
-  --color-accent-300: #a4ba9a;
-  --color-accent-400: #82a077;
-  --color-accent-500: #67885d;
-  --color-accent-600: #506d48;
-  --color-accent-700: #41573b;
-  --color-accent-800: #374731;
-  --color-accent-900: #2f3c2b;
-  --color-accent-950: #171f15;
+  /* Accent — Orange (11 stops) */
+  --color-accent-50: #fff2ed;
+  --color-accent-100: #ffe6de;
+  --color-accent-200: #ffcfbf;
+  --color-accent-300: #ffaf95;
+  --color-accent-400: #ff8e68;
+  --color-accent-500: #ff6b34;
+  --color-accent-600: #e95619;
+  --color-accent-700: #b3451b;
+  --color-accent-800: #8c391a;
+  --color-accent-900: #71301a;
+  --color-accent-950: #340f03;
   --color-accent: var(--color-accent-600);
   --color-accent-fg: #ffffff;
   --color-accent-soft: var(--color-accent-100);
@@ -391,22 +391,22 @@
   --color-canal-messenger: #60a5fa;
   --color-canal-telegram: #38bdf8;
 
-  /* Accent stays same hex stops; default shifts up for dark contrast */
-  --color-accent-50: #f3f6f1;
-  --color-accent-100: #e4ebe0;
-  --color-accent-200: #c8d6c1;
-  --color-accent-300: #a4ba9a;
-  --color-accent-400: #82a077;
-  --color-accent-500: #67885d;
-  --color-accent-600: #506d48;
-  --color-accent-700: #41573b;
-  --color-accent-800: #374731;
-  --color-accent-900: #2f3c2b;
-  --color-accent-950: #171f15;
-  --color-accent: var(--color-accent-400);
-  --color-accent-fg: #161510;
-  --color-accent-soft: rgba(130, 160, 119, 0.16);
-  --color-accent-hover: var(--color-accent-300);
+    /* Accent — Orange (11 stops); default shifts up for dark contrast */
+    --color-accent-50: #fff2ed;
+    --color-accent-100: #ffe6de;
+    --color-accent-200: #ffcfbf;
+    --color-accent-300: #ffaf95;
+    --color-accent-400: #ff8e68;
+    --color-accent-500: #ff6b34;
+    --color-accent-600: #e95619;
+    --color-accent-700: #b3451b;
+    --color-accent-800: #8c391a;
+    --color-accent-900: #71301a;
+    --color-accent-950: #340f03;
+    --color-accent: var(--color-accent-400);
+    --color-accent-fg: #161510;
+    --color-accent-soft: rgba(255, 142, 104, 0.16);
+    --color-accent-hover: var(--color-accent-300);
 
   /* Neutrals — greige (11 stops, dark) */
   --color-neutral-50: #f5f4ef;
@@ -512,7 +512,7 @@
   --color-text-muted: var(--color-text-muted);
   --color-text-subtle: var(--color-text-subtle);
 
-  /* Accent — Sage */
+   /* Accent — Orange */
   --color-accent: var(--color-accent);
   --color-accent-foreground: var(--color-accent-fg);
   --color-accent-soft: var(--color-accent-soft);
